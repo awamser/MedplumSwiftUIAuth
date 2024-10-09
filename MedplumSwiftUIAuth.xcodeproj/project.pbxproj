@@ -11,9 +11,9 @@
 		E71C54D22C5BC6A1007505F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71C54D12C5BC6A1007505F9 /* ContentView.swift */; };
 		E71C54D42C5BC6A2007505F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71C54D32C5BC6A2007505F9 /* Assets.xcassets */; };
 		E71C54D72C5BC6A2007505F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71C54D62C5BC6A2007505F9 /* Preview Assets.xcassets */; };
+		E73E66652C66834600603B13 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = E73E66642C66834600603B13 /* Secrets.plist */; };
 		E787355D2C5D6D2B00D34E00 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787355C2C5D6D2B00D34E00 /* AuthViewModel.swift */; };
 		E78735602C5D82B000D34E00 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E787355F2C5D82B000D34E00 /* LoginView.swift */; };
-		E78B1A712C65A99D008ABB6A /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = E78B1A702C65A99D008ABB6A /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		E71C54D12C5BC6A1007505F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E71C54D32C5BC6A2007505F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71C54D62C5BC6A2007505F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E73E66642C66834600603B13 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		E787355C2C5D6D2B00D34E00 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		E787355F2C5D82B000D34E00 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E78735612C5D865800D34E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		E78B1A702C65A99D008ABB6A /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		E71C54CE2C5BC6A1007505F9 /* MedplumSwiftUIAuth */ = {
 			isa = PBXGroup;
 			children = (
-				E78B1A702C65A99D008ABB6A /* Secrets.plist */,
+				E73E66642C66834600603B13 /* Secrets.plist */,
 				E78735612C5D865800D34E00 /* Info.plist */,
 				E787355E2C5D7F5300D34E00 /* Views */,
 				E78735592C5D492000D34E00 /* ViewModels */,
@@ -153,7 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E71C54D72C5BC6A2007505F9 /* Preview Assets.xcassets in Resources */,
-				E78B1A712C65A99D008ABB6A /* Secrets.plist in Resources */,
+				E73E66652C66834600603B13 /* Secrets.plist in Resources */,
 				E71C54D42C5BC6A2007505F9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
