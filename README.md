@@ -1,6 +1,6 @@
 # Medplum SwiftUI Auth
 
-[Blog Post](https://wamser.com/medplum/oauth/2024/08/03/medplum-oauth-demo.html)
+[Blog Post](https://wamser.com/medplum/oauth/2024/10/03/medplum-oauth-demo.html)
  
 ### Create a Secrets.plist
 
